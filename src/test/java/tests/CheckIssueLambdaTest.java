@@ -10,7 +10,7 @@ import static com.codeborne.selenide.logevents.SelenideLogger.step;
 public class CheckIssueLambdaTest extends TestBase {
 
     @Test
-    public void testLambdaStep() {
+    public void testLambdaStepTest() {
       SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу", () -> {

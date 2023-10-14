@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class CheckIssueSelenideTest extends TestBase {
 
     @Test
-    public void testIssueSearch() {
+    public void testIssueSearchTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         gitHubPage.openUrl()

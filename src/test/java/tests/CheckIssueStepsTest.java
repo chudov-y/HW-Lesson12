@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class CheckIssueStepsTest {
 
     @Test
-    public void testAnnotatedStep() {
+    public void testAnnotatedStepTest() {
     SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();
 
